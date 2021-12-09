@@ -26,6 +26,15 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
+
+@media (max-width: 500px) {
+  body::before {
+    background-attachment: fixed;
+    background: #040404 url("../img/bg_small.jpg") bottom center no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+}
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
