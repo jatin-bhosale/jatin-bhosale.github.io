@@ -355,7 +355,12 @@ section .container {
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
-
+@media (min-width: 700px) {
+  section {
+    padding-top: 40px;
+    padding-bottom: 100px;
+  }
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
