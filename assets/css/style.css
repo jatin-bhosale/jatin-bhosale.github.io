@@ -27,7 +27,7 @@ body::before {
   z-index: -1;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   body::before {
     background-attachment: fixed;
     background: #040404 url("../img/bg_small.jpg") bottom center no-repeat;
