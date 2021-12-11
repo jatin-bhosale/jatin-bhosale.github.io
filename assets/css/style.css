@@ -691,16 +691,16 @@ section .container {
   text-align: center;
 }
 .contact .info-box i.bx {
-  font-size: 45px;
+  font-size: 40px;
   color: #18d26e;
   border-radius: 50%;
-  padding: 40px;
+  padding: 35px;
   float: center;
   background: rgba(255, 255, 255, 0.1);
   margin-top: 30px;
 }
 .contact .info-box h3 {
-  font-size: 35px;
+  font-size: 30px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
   margin: 15px 0 0px 0px;
@@ -708,8 +708,8 @@ section .container {
 .contact .info-box p {
   padding: 0;
   color: #fff;
-  line-height: 40px;
-  font-size: 24px;
+  line-height: 435px;
+  font-size: 220px;
   margin: 0 0 0 0px;
 }
 .contact .info-box .social-links {  
