@@ -688,39 +688,46 @@ section .container {
   padding: 20px;
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
+  text-align: center;
 }
 .contact .info-box i.bx {
-  font-size: 24px;
+  font-size: 45px;
   color: #18d26e;
   border-radius: 50%;
-  padding: 14px;
+  padding: 40px;
   float: center;
   background: rgba(255, 255, 255, 0.1);
+  margin-top: 30px;
 }
 .contact .info-box h3 {
-  font-size: 20px;
+  font-size: 35px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
-  margin: 10px 0 8px 68px;
+  margin: 15px 0 0px 0px;
 }
 .contact .info-box p {
   padding: 0;
   color: #fff;
-  line-height: 24px;
-  font-size: 14px;
-  margin: 0 0 0 68px;
+  line-height: 40px;
+  font-size: 24px;
+  margin: 0 0 0 0px;
 }
-.contact .info-box .social-links {
-  margin: 5px 0 0 68px;
+.contact .info-box .social-links {  
   display: flex;
+  float: center;
+  width: 65%;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 .contact .info-box .social-links a {
-  font-size: 18px;
-  display: inline-block;
+  font-size: 28px;
+  display: flex;
   color: #fff;
   line-height: 1;
-  margin-right: 12px;
+  margin: auto;
   transition: 0.3s;
+  float: center;
+  position: center;
 }
 .contact .info-box .social-links a:hover {
   color: #18d26e;
