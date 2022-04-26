@@ -311,12 +311,25 @@ section .container {
   background: rgba(0, 0, 0, 0.9);
   padding: 30px;
 }
+section .container_con {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 30px;
+}
+
 @media (max-width: 768px) {
   section {
     top: 120px;
   }
   section.section-show {
     top: 80px;
+  }
+}
+
+@media (min-width: 768px){
+  section .container_con {
+    width: 50%;
+    float: left;
+    margin-left: 100px;
   }
 }
 
