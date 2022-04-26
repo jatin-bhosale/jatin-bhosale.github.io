@@ -749,7 +749,7 @@ section .container {
 # Credits
 --------------------------------------------------------------*/
 .credits {
-  position: fixed;
+  position: absolute;
   right: 0;
   left: 0;
   bottom: 0;
@@ -765,11 +765,4 @@ section .container {
     padding: 10px;
     background: rgba(0, 0, 0, 0.8);
   }
-}
-.credits a {
-  color: #18d26e;
-  transition: 0.3s;
-}
-.credits a:hover {
-  color: #fff;
 }
