@@ -718,6 +718,13 @@ section .container_con {
   font-size: 20px;
   margin: 0 0 0 0px;
 }
+
+@media (max-width: 300px) {
+  .contact .info-box p{
+    font-size: 15px;
+  }
+  
+}
 .contact .info-box .social-links {  
   display: flex;
   float: left;
