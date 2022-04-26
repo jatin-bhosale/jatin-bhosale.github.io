@@ -701,7 +701,7 @@ section .container_con {
   color: #18d26e;
   border-radius: 50%;
   padding: 35px;
-  float: center;
+  float: left;
   background: rgba(255, 255, 255, 0.1);
   margin-top: 30px;
 }
