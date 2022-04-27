@@ -327,8 +327,9 @@ section .container_con {
 
 @media (min-width: 700px){
   section .container_con {
-    width: 40%;
+    width: 50%;
     float: left;
+    margin-left: 50px;
   }
 }
 
@@ -746,7 +747,7 @@ section .container_con {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .contact .info-box p{
     font-size: 15px;
   }
