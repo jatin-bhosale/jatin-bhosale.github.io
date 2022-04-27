@@ -719,17 +719,6 @@ section .container_con {
   margin: 0 0 0 0px;
 }
 
-@media (max-width: 700px) {
-  .contact .info-box p{
-    font-size: 12px;
-  }
-  .contact .info-box h3{
-    font-size: 18px;
-  }
-  .contact .info-box i.bx{
-    padding: 20px;
-  }
-}
 .contact .info-box .social-links {  
   display: flex;
   float: left;
@@ -752,6 +741,20 @@ section .container_con {
 }
 
 
+@media (max-width: 700px) {
+  .contact .info-box p{
+    font-size: 15px;
+  }
+  .contact .info-box h3{
+    font-size: 22.5px;
+  }
+  .contact .info-box i.bx{
+    padding: 20px;
+  }
+  .contact .info-box .social-links a { 
+    font-size: 18px;
+  }
+}
 
 @-webkit-keyframes animate-loading {
   0% {
