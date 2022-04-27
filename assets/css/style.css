@@ -747,7 +747,7 @@ section .container_con {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .contact .info-box p{
     font-size: 15px;
   }
