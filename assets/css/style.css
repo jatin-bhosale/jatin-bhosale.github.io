@@ -329,7 +329,6 @@ section .container_con {
   section .container_con {
     width: 40%;
     float: left;
-    margin-left: 50px;
   }
 }
 
