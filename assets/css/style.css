@@ -719,11 +719,16 @@ section .container_con {
   margin: 0 0 0 0px;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 700px) {
   .contact .info-box p{
-    font-size: 15px;
+    font-size: 12px;
   }
-  
+  .contact .info-box h3{
+    font-size: 18px;
+  }
+  .contact .info-box i.bx{
+    padding: 20px;
+  }
 }
 .contact .info-box .social-links {  
   display: flex;
