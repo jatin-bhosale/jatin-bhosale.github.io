@@ -747,6 +747,7 @@ section .container_con {
   }
   .contact .info-box h3{
     font-size: 22.5px;
+    margin-top: 15px;
   }
   .contact .info-box i.bx{
     padding: 20px;
